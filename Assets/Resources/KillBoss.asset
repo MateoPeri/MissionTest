@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ce6291856b31949a04d43a828b4d67, type: 3}
+  m_Name: KillBoss
+  m_EditorClassIdentifier: 
+  Title: Kill the dungeon boss
+  Description: Kill the boss to complete the level
+  moneyReward: 100
+  active: 0
+  enemyToKill: {fileID: 1268786230835306, guid: 92535d6493685fc43a8ccbd18b8855ea,
+    type: 2}
+  requiredKillCount: 1
+  currentKillCount: 0
